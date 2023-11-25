@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 34px;
+  border: 2px solid var(--secondary);
+}
+
+.about__img {
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.title {
+  color: var(--title);
+  font-size: 68.3px;
+  font-family: Bebas Neue;
+  font-weight: 400;
+}
+.about__text {
+  color: var(--title);
+  padding: 30px;
+  text-align: center;
+  font-size: 13px;
+  font-family: Montserrat;
+  font-weight: 400;
+}

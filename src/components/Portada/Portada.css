@@ -1,0 +1,138 @@
+.bubble-container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
+
+.bubble {
+  position: absolute;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
+.bubble-1 {
+  margin-left: 10.61%;
+  margin-top: 7.82%;
+  width: 27.37%;
+  background: linear-gradient(
+    44deg,
+    rgba(218, 90, 160, 0.615) 0%,
+    rgba(230.56, 151.79, 217.96, 0) 100%
+  );
+  border-radius: 50%;
+  filter: blur(1px);
+}
+.bubble-2 {
+  margin-left: 45.25%;
+  margin-top: 3.91%;
+  width: 49.16%;
+  background: linear-gradient(
+    50deg,
+    rgba(218, 90, 160, 0.687) 0%,
+    rgba(230.56, 151.79, 217.96, 0) 100%
+  );
+  border-radius: 50%;
+  filter: blur(1px);
+}
+.bubble-3 {
+  z-index: 100;
+  margin-left: 15.08%;
+  margin-top: 11.73%;
+  width: 68.15%;
+  background: linear-gradient(
+    180deg,
+    rgba(218, 90, 160, 0.718) 0%,
+    rgba(230.56, 151.79, 217.96, 0) 100%
+  );
+  border-radius: 50%;
+}
+.bubble-4 {
+  margin-left: 0%;
+  margin-top: 36.31%;
+  width: 45.81%;
+  background: linear-gradient(
+    104deg,
+    rgba(218, 90, 160, 0.615) 0%,
+    rgba(230.56, 151.79, 217.96, 0) 100%
+  );
+  border-radius: 9999px;
+  filter: blur(1px);
+}
+.bubble-5 {
+  margin-left: 66.48%;
+  margin-top: 34.63%;
+  width: 27.37%;
+  background: linear-gradient(
+    116deg,
+    rgba(218, 90, 160, 0.615) 0%,
+    rgba(230.56, 151.79, 217.96, 0) 100%
+  );
+  border-radius: 50%;
+  filter: blur(1.59px);
+  animation: infinite 2s moveLeft;
+}
+.bubble-6 {
+  margin-left: 36.31%;
+  margin-top: 67.59%;
+  width: 29.6%;
+  background: linear-gradient(
+    290deg,
+    rgba(218, 90, 160, 0.615) 0%,
+    rgba(230.56, 151.79, 217.96, 0) 100%
+  );
+  border-radius: 50%;
+  filter: blur(1px);
+  animation: infinite 2s moveTop;
+}
+
+.frontpage__text {
+  font-family: var(--italic);
+  z-index: 300;
+  position: relative;
+  top: 50%;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.port {
+  font-size: 30px;
+}
+
+@keyframes moveTop {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(80px) rotate(100deg);
+    background-color: rgb(140, 255, 0);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes moveLeft {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(80px);
+    background-color: red;
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}

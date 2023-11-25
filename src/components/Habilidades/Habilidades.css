@@ -1,0 +1,55 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.informatica {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.complementarias {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.skill__title {
+  padding: 30px;
+  color: var(--title);
+  font-size: 40px;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  text-align: center;
+}
+
+.skills__text {
+  font-size: 12px;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  width: 70px;
+  text-align: center;
+  color: var(--title);
+}
+
+.skills__img {
+  height: 50px;
+}
+
+.pict {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
