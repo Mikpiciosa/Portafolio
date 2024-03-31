@@ -42,6 +42,9 @@
   animation: infinite 2s moveBottom;
 }
 .bubble-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 100;
   margin-left: 15.08%;
   margin-top: 11.73%;
@@ -94,22 +97,8 @@
   animation: infinite 2s moveTop;
 }
 
-.frontpage__text {
-  font-family: var(--italic);
-  z-index: 300;
-  position: relative;
-  top: 50%;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-weight: 400;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  text-align: center;
-}
-
-.port {
-  font-size: 30px;
+.frontLogo {
+  width: 80%;
 }
 
 @keyframes moveTop {

@@ -9,10 +9,10 @@ export const Contacto = () => {
         <div className="contact--conta">
           <div className="contact--icons">
             <a href="mailto:micagustina.m@gmail.com">
-              <img className="contact__img" src="./icons/mail.svg" alt="" />
+              <img className="img__mail" src="./mail.svg" alt="" />
             </a>
             <a href="https://www.linkedin.com/in/micaela-oz/">
-              <img className="contact__img" src="./icons/linkedin.svg" alt="" />
+              <img className="img__linkedin" src="./linkedin.svg" alt="" />
             </a>
             <a href="https://github.com/Mikpiciosa">
               <img className="contact__img" src="./icons/github.svg" alt="" />
@@ -35,7 +35,11 @@ export const Contacto = () => {
           <label className="contact__item--text" htmlFor="">
             Mensaje
           </label>
-          <input className="form--item" type="text" />
+          <textarea
+            className="form--item"
+            type="text"
+            placeholder="Escribe tu mensaje"
+          ></textarea>
           <button
             onClick={(e) => {
               e.preventDefault();

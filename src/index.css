@@ -18,6 +18,14 @@
   box-sizing: border-box;
 }
 
+main {
+  padding-top: 75px;
+}
+
+ul {
+  list-style: none;
+}
+
 a {
   text-decoration: inherit;
 }
@@ -61,5 +69,4 @@ a {
   background-color: var(--title);
   color: var(--text);
   cursor: pointer;
-  transition: all 0.3s linear;
 }

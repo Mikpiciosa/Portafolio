@@ -1,74 +1,45 @@
-import "./Header.css";
 import { useState } from "react";
-import hamg from "/hamb.svg";
-import x from "/x.svg";
+import "./Header2.css";
+import logo from "/nombre.svg";
 
 export const Header = () => {
-  const [menu, setMenu] = useState(false);
+  const [isClickedMenu, setIsClickedMenu] = useState(false);
 
-  const toggleMenu = () => {
-    setMenu(!menu);
-  };
+  console.log(isClickedMenu);
 
   return (
     <header className="header">
-      <img src="./loguito.svg" alt="" />
-      {menu && (
-        <div className="header__menu">
-          <div className="header__menu-btncontainer">
-            <button className="header__menu-button" onClick={toggleMenu}>
-              <img className="header__menu-x" src={x} alt="boton cerrar" />
-            </button>
-          </div>
-          <nav className="header__menu-nav">
-            <ul className="header__menu-list">
-              <li className="header__menu-item">
-                <a className="header__menu-link" href="">
-                  Sobre Mi
-                </a>
-              </li>
-              <li className="header__menu-item">
-                <a className="header__menu-link" href="">
-                  Servicios
-                </a>
-              </li>
-              <li className="header__menu-item">
-                <a className="header__menu-link" href="">
-                  Proyectos
-                </a>
-              </li>
-              <li className="header__menu-item">
-                <a className="header__menu-link" href="">
-                  Contacto
-                </a>
-              </li>
-            </ul>
-          </nav>
+      <nav className="nav">
+        <img className="logo" src={logo} alt="logo" />
+        <div
+          className={`menu ${isClickedMenu && "menu--open"} `}
+          onClick={() => {
+            return setIsClickedMenu(!isClickedMenu);
+          }}
+        >
+          <div className="menu__item"></div>
+          <div className="menu__item"></div>
+          <div className="menu__item"></div>
         </div>
-      )}
-      <button className="header__menu-button menu-abrir" onClick={toggleMenu}>
-        <img className="header__menu-img" src={hamg} alt="menu hamb" />
-      </button>
-      <nav className="header__nav">
-        <ul className="header__nav-list">
-          <li className="header__nav-item">
-            <a href="" className="header__nav-link">
-              Sobre Mi
+        <ul className={`menu__list ${isClickedMenu && "menu__list--open"} `}>
+          <li className="list__item">
+            <a className="list__link" href="">
+              About
             </a>
           </li>
-          <li className="header__nav-item">
-            <a href="" className="header__nav-link">
-              Servicios
+          <li className="list__item">
+            <a className="list__link" href="">
+              Services
             </a>
           </li>
-          <li className="header__nav-item">
-            <a href="" className="header__nav-link">
-              Proyectos
+          <li className="list__item">
+            <a className="list__link" href="">
+              Projects
             </a>
           </li>
-          <li className="header__nav-item">
-            <a href="" className="header__nav-link">
-              Contacto
+          <li className="list__item">
+            <a className="list__link" href="">
+              Contact
             </a>
           </li>
         </ul>

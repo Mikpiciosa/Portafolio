@@ -19,7 +19,7 @@ function App() {
           <Servicios></Servicios>
           {/* <Hola></Hola> */}
         </section>
-        <section className="bg2">
+        <section className="">
           <Habilidades></Habilidades>
           <Projects></Projects>
         </section>

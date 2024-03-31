@@ -24,7 +24,7 @@ export const Projects = () => {
           <button className="btn">Ver Más</button>
         </div>
       </section>
-      <section className="projects__cont">
+      {/*  <section className="projects__cont">
         <div className="project__conteiner--img">
           <img className="project__img" src={moon} alt="imagen del proyecto" />
           <img className="project__logo" src={figma} alt="logito de figma" />
@@ -55,7 +55,7 @@ export const Projects = () => {
           </p>
           <button className="btn">Ver Más</button>
         </div>
-      </section>
+      </section> */}
     </section>
   );
 };
