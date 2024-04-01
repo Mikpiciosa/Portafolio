@@ -1,5 +1,5 @@
 import "./Habilidades.css";
-import { aboutIcons } from "./Abouticons";
+import { icons } from "./icons.js";
 
 export const Habilidades = () => {
   const IconsComponent = ({ name, src }) => {
@@ -17,22 +17,28 @@ export const Habilidades = () => {
       <article className="cont__skills">
         <div>
           <h3 className="skill__title">Informatica</h3>
-          <div className="informatica">
-            {aboutIcons
-              .filter(({ habilidades }) => habilidades === "informatica")
-              .map(({ name, src }, index) => (
-                <IconsComponent name={name} src={src} key={index} />
-              ))}
+          <div className="complementarias">
+            {icons.informatica.map(({ name, src }) => {
+              return (
+                <div key={name}>
+                  <img src={src} alt="" />
+                  <p>{name}</p>
+                </div>
+              );
+            })}
           </div>
         </div>
         <div>
           <h3 className="skill__title">Complementarias</h3>
           <div className="complementarias">
-            {aboutIcons
-              .filter(({ habilidades }) => habilidades === "complementarias")
-              .map(({ name, src }, index) => (
-                <IconsComponent name={name} src={src} key={index} />
-              ))}
+            {icons.complementarias.map(({ name, src }) => {
+              return (
+                <div key={name}>
+                  <img src={src} alt="" />
+                  <p>{name}</p>
+                </div>
+              );
+            })}
           </div>
         </div>
       </article>
