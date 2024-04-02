@@ -2,40 +2,30 @@ import "./Habilidades.css";
 import { icons } from "./icons.js";
 
 export const Habilidades = () => {
-  const IconsComponent = ({ name, src }) => {
-    return (
-      <picture className="pict">
-        <img className="skills__img" src={src} alt={`logo de ${name}`} />
-        <p className="skills__text">{name}</p>
-      </picture>
-    );
-  };
   return (
     <section className="skills">
       <div className="linear"></div>
       <h2 className="title">Habilidades</h2>
       <article className="cont__skills">
-        <div>
-          <h3 className="skill__title">Informatica</h3>
-          <div className="complementarias">
-            {icons.informatica.map(({ name, src }) => {
-              return (
-                <div key={name}>
-                  <img src={src} alt="" />
-                  <p>{name}</p>
-                </div>
-              );
-            })}
-          </div>
+        <h3 className="skill__title">Informatica</h3>
+        <div className="cont__icons">
+          {icons.informatica.map(({ name, src }) => {
+            return (
+              <div className="icons__text" key={name}>
+                <img className="skills__icons" src={src} alt="" />
+                <p className="skills__text">{name}</p>
+              </div>
+            );
+          })}
         </div>
         <div>
           <h3 className="skill__title">Complementarias</h3>
-          <div className="complementarias">
+          <div className="cont__icons">
             {icons.complementarias.map(({ name, src }) => {
               return (
-                <div key={name}>
-                  <img src={src} alt="" />
-                  <p>{name}</p>
+                <div className="icon__cont" key={name}>
+                  <img className="skills__icons" src={src} alt="" />
+                  <p className="skills__text">{name}</p>
                 </div>
               );
             })}

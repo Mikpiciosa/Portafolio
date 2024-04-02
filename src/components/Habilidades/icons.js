@@ -2,7 +2,7 @@ export const icons = {
   informatica: [
     {
       name: "html",
-      src: "./icons/html.svg",
+      src: "/icons/html.svg",
     },
     {
       name: "sass",
@@ -63,6 +63,5 @@ export const icons = {
       name: "Jira, Asana, Trello",
       src: "/icons/table.svg",
     },
-    {},
   ],
 };

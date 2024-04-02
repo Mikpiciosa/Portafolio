@@ -1,0 +1,74 @@
+{
+  "diseños": [
+    {
+      "image": "./mypetsocial.png",
+      "title": "My Pet Social",
+      "description": "Una aplicación para dueños de mascotas, creada desde cero, que ofrece una experiencia completa en la gestión de la salud, bienestar y actividades de las mascotas. Este proyecto abarca diseño UX/UI y maquetación para proporcionar una solución intuitiva y satisfactoria.",
+      "technology": [
+        {
+          "name": "Figma",
+          "src": "./icons/figma.svg"
+        }
+      ]
+    },
+    {
+      "image": "./owl.png",
+      "title": "OWL",
+      "description": "Proyecto Full Stack con Front-End e",
+      "technology": [
+        {
+          "name": "Figma",
+          "src": "./icons/figma.svg"
+        }
+      ]
+    }
+  ],
+  "websites": [
+    {
+      "image": "./gk.png",
+      "title": "GKConsulting",
+      "description": "Una aplicación para dueños de mascotas, creada desde cero, que ofrece una experiencia completa en la gestión de la salud, bienestar y actividades de las mascotas. Este proyecto abarca diseño UX/UI y maquetación para proporcionar una solución intuitiva y satisfactoria.",
+      "technology": [
+        {
+          "name": "ReactJs",
+          "src": "./icons/react.svg"
+        },
+        {
+          "name": "HTML",
+          "src": "./icons/html.svg"
+        },
+        {
+          "name": "CSS",
+          "src": "./icons/css.svg"
+        },
+        {
+          "name": "GitHub",
+          "src": "./icons/github.svg"
+        }
+      ]
+    },
+    {
+      "image": "./calderas.png",
+      "title": "El Instalador de Calderas",
+      "description": "Proyecto Full Stack con Front-End e",
+      "technology": [
+        {
+          "name": "ReactJs",
+          "src": "./icons/react.svg"
+        },
+        {
+          "name": "HTML",
+          "src": "./icons/html.svg"
+        },
+        {
+          "name": "CSS",
+          "src": "./icons/css.svg"
+        },
+        {
+          "name": "GitHub",
+          "src": "./icons/github.svg"
+        }
+      ]
+    }
+  ]
+}

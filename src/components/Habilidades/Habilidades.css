@@ -5,17 +5,7 @@
   align-items: center;
 }
 
-.informatica {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  width: 90%;
-  margin: 0 auto;
-  flex-wrap: wrap;
-}
-
-.complementarias {
+.cont__icons {
   display: flex;
   justify-content: center;
   align-items: start;
@@ -35,21 +25,20 @@
 }
 
 .skills__text {
-  font-size: 12px;
+  font-size: 15px;
   font-family: Bebas Neue;
   font-weight: 400;
-  width: 70px;
   text-align: center;
   color: var(--title);
+  max-width: 20ch;
 }
 
-.skills__img {
+.skills__icons {
+  margin-bottom: 1rem;
+  width: 50px;
   height: 50px;
 }
 
-.pict {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
+.icon__cont {
+  text-align: center;
 }
