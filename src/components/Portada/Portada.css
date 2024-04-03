@@ -10,6 +10,9 @@
   outline: 1px solid red;
 } */
 
+.frontpage {
+}
+
 .bubble {
   position: absolute;
   aspect-ratio: 1 / 1;
@@ -178,5 +181,11 @@
 
   100% {
     transform: translateY(0px);
+  }
+}
+
+@media (min-width: 1000px) {
+  .bubble-container {
+    max-width: 100vh;
   }
 }

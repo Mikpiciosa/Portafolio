@@ -36,7 +36,7 @@ export const Contacto = () => {
             Mensaje
           </label>
           <textarea
-            className="form--item"
+            className="form--item msj"
             type="text"
             placeholder="Escribe tu mensaje"
           ></textarea>

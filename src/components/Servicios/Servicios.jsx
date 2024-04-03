@@ -10,7 +10,7 @@ export const Servicios = () => {
       </p>
       <div>
         <div className="service__sections">
-          <section className="service">
+          <article className="service">
             <h2 className="serv__title">Diseño Ux/Ui</h2>
             <p className="serv__text">
               Con nuestro servicio de diseño UX/UI ofrecemos acompañamiento
@@ -19,16 +19,16 @@ export const Servicios = () => {
               intuitiva a la vista de cualquier usuario.
             </p>
             <button className="btn">Ver más</button>
-          </section>
-          <section className="service">
+          </article>
+          <article className="service">
             <h2 className="serv__title">Desarrollo Web</h2>
             <p className="serv__text">
               Cuento con todo lo necesario para crearte una web totalmente
               funcional, bien estructurada y sobretodo, agradable a la vista.
             </p>
             <button className="btn">Ver más</button>
-          </section>
-          <section className="service">
+          </article>
+          <article className="service">
             <h2 className="serv__title">Asesoramiento</h2>
             <p className="serv__text">
               Con nuestro servicio de diseño UX/UI ofrecemos acompañamiento
@@ -37,7 +37,7 @@ export const Servicios = () => {
               intuitiva a la vista de cualquier usuario.
             </p>
             <button className="btn">Ver más</button>
-          </section>
+          </article>
         </div>
       </div>
     </section>

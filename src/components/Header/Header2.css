@@ -17,7 +17,6 @@
 
 .logo {
   width: 80px;
-  height: 80px;
 }
 
 .menu {
@@ -76,4 +75,34 @@
   color: var(--text);
   font-family: var(--bebas);
   font-size: 3rem;
+}
+
+@media (min-width: 1000px) {
+  .nav {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu__list {
+    position: static;
+    margin-top: initial;
+    height: initial;
+    width: initial;
+    display: flex;
+    flex-direction: row;
+
+    column-gap: 20px;
+  }
+
+  .list__link {
+    font-size: 1.5rem;
+  }
+
+  .list__item {
+    margin-top: initial;
+  }
 }

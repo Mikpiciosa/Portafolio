@@ -42,3 +42,20 @@
 .icon__cont {
   text-align: center;
 }
+
+@media (min-width: 1000px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cont__skills {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pepis {
+    max-width: 40%;
+    margin: 0 auto;
+  }
+}

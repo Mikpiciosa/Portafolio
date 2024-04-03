@@ -7,20 +7,23 @@ export const Habilidades = () => {
       <div className="linear"></div>
       <h2 className="title">Habilidades</h2>
       <article className="cont__skills">
-        <h3 className="skill__title">Informatica</h3>
-        <div className="cont__icons">
-          {icons.informatica.map(({ name, src }) => {
-            return (
-              <div className="icons__text" key={name}>
-                <img className="skills__icons" src={src} alt="" />
-                <p className="skills__text">{name}</p>
-              </div>
-            );
-          })}
+        <div className="pepis">
+          <h3 className="skill__title">Informatica</h3>
+          <div className="cont__icons ">
+            {icons.informatica.map(({ name, src }) => {
+              return (
+                <div className="icons__text" key={name}>
+                  <img className="skills__icons" src={src} alt="" />
+                  <p className="skills__text">{name}</p>
+                </div>
+              );
+            })}
+          </div>
         </div>
-        <div>
+
+        <div className="pepis">
           <h3 className="skill__title">Complementarias</h3>
-          <div className="cont__icons">
+          <div className="cont__icons ">
             {icons.complementarias.map(({ name, src }) => {
               return (
                 <div className="icon__cont" key={name}>

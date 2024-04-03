@@ -27,6 +27,7 @@
   border: 1px solid var(--title);
   border-radius: 1rem;
   width: 300px;
+  min-height: 501px;
 }
 
 .container__textandbutton {
